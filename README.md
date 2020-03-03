@@ -1,12 +1,14 @@
 # raspberrypi_b_plus_ssh
 raspberrypi_b_plus_ssh
 
-IP address ?
+#### IP address ?
 ```
 $ hostname -I
 ```
 
 
+
+#### Install ?
 ```
 $ sudo apt install openssh-server
 $ sudo systemctl enable ssh.service
